@@ -1,0 +1,15 @@
+Flask==2.2.2
+flask-marshmallow==0.14.0
+Flask-Migrate==4.0.4
+Flask-SQLAlchemy==3.0.3
+Gladiator==0.7.0
+marshmallow==3.19.0
+marshmallow-sqlalchemy==0.28.1
+psycopg2==2.9.5
+python-apt==2.4.0
+SQLAlchemy==2.0.3
+sqlparse==0.4.3
+virtualenv==20.17.1
+hashlib
+datetime
+pip
