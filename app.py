@@ -132,7 +132,7 @@ def update(id):
         user.email = data['email']
 
         hashed_password = passwordHashing(user.password)
-        user.password = hashed_password   #updatd the password with it's hash value
+        user.password = hashed_password   #updated the password with it's hash value
         if validateUserInfo(user.username,user.email):
             db.session.add(user)
             db.session.commit()
